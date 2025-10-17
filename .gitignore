@@ -1,0 +1,23 @@
+# macOS system files
+.DS_Store
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# NLTK data
+nltk_data/
+
+# Data folder (raw large CSVs)
+data/raw/
+*.csv
+*.zip
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
