@@ -19,5 +19,15 @@ data/raw/
 *.csv
 *.zip
 
-# Jupyter Notebook checkpoints (if any)
+# PyTorch model weights
+*.pth
+
+# Pickle files (optional, if you want to ignore scaler)
+*.pkl
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db

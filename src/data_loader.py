@@ -15,7 +15,7 @@ def load_dataset(csv_path, text_column='text', label_column='generated'):
     
     df = df[[text_column, label_column]]
     df.dropna(inplace=True)
-    df = df.head(1000)
+   #df = df.head(1000)
     return df
 
 # Optional test run when module is run directly
